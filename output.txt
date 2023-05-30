@@ -2,9 +2,9 @@ Welcome to LISP Interpreter
 'quit' to exit
 Lisp> (+ 3 2)
 5.0
-Lisp> (defun ass (function (x) (* x x)))
+Lisp> (defun test (function (x) (* x x)))
 ass
-Lisp> (ass 4)
+Lisp> (test 4)
 16.0
 Lisp> (define d 100)
 100.0
