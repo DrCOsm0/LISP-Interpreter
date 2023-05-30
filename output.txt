@@ -1,0 +1,23 @@
+Welcome to LISP Interpreter
+'quit' to exit
+Lisp> (+ 3 2)
+5.0
+Lisp> (defun ass (function (x) (* x x)))
+ass
+Lisp> (ass 4)
+16.0
+Lisp> (define d 100)
+100.0
+Lisp> (+ d 50)
+150.0
+Lisp> '(+ 1 2)
+(+ 1.0 2.0)
+Lisp> (if (and (> 20 10) NIL) (+ 1 1) (+ 3 3))
+6.0
+Lisp> (if (and (= a a) (!= a a)) (+ 1 1) (+ 3 3))
+6.0
+Lisp> (define x 2)
+2.0
+Lisp> (sqrt x)
+1.4142135623730951
+Lisp> quit
